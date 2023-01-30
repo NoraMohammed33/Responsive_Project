@@ -165,3 +165,34 @@
     padding-left: 5px;
     transition: all 0.4s;
 }
+.btns{
+    height: 50px;
+    width: 30%;
+    border: none;
+    outline: none;
+    background: white;
+    color: rgb(238, 11, 105);
+    font-weight: bold;
+}
+.sub{
+    height: 50px;
+    width: 70%;
+    background: transparent;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+}
+.circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: white;
+    background: rgb(53, 49, 49);
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: all 1.4s;
+}
+.circle:hover{
+    background: white;
+    color:rgb(53, 49, 49)
+}
